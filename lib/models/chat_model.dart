@@ -13,7 +13,7 @@ List<ChatModels> dummyData = [
       message: "Hello All",
       time: "05:20",
       avatarUrl:
-          "https://en.wikipedia.org/wiki/Pierre_Person#/media/File:Pierre-Person.jpg"),
+          "https://pbs.twimg.com/profile_images/916678766386069505/lAe3g32F_400x400.jpg"),
   ChatModels(
       name: "Mark Zukerberg",
       message: "Jay Shree Ram",
@@ -64,7 +64,7 @@ List<ChatModels> dummyData = [
           "https://timedotcom.files.wordpress.com/2018/09/bill-gates-africa.jpg"),
   ChatModels(
       name: "Waldimar Putin",
-      message: "I am here USA",
+      message: "I am here .... USA",
       time: "03:15",
       avatarUrl:
           "https://secure.i.telegraph.co.uk/multimedia/archive/02431/Putin-speech_2431558b.jpg"),
