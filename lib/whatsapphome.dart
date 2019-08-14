@@ -5,6 +5,9 @@ import 'package:whatsappclone/pages/chats_ui.dart';
 import 'package:whatsappclone/pages/status_ui.dart';
 
 class WhatsAppHome extends StatefulWidget {
+  var cameras;
+  WhatsAppHome(this.cameras);
+
   @override
   _WhatsAppHomeState createState() => _WhatsAppHomeState();
 }
@@ -54,7 +57,7 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
       body: TabBarView(
         controller: _tabController,
         children: <Widget>[
-          CameraUI(),
+          CameraUI(widget.cameras),
           ChatsUI(),
           StatusUI(),
           CallsUI(),
